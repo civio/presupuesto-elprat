@@ -84,8 +84,8 @@ PAYMENTS_LOADER = 'ElpratPaymentsLoader'
 # Supported languages. Default: ('es', 'Castellano')
 LANGUAGES = (
   ('es', 'Castellano'),
-  ('en', 'English'),
-  # ('ca', 'Catal&agrave;'),
+  ('ca', 'Catal&agrave;')
+  # ('en', 'English'),
   # ('eu', 'Euskera'),
   # ('gl', 'Galego'),
 )
@@ -141,7 +141,7 @@ FEATURED_PROGRAMMES = ['1621', '1710', '3380', '2410', '3110']
 # ----------------------
 
 # Use new Sankey visualization or the old one. Default: False
-# OVERVIEW_USE_NEW_VIS = True
+OVERVIEW_USE_NEW_VIS = True
 
 OVERVIEW_INCOME_NODES = [
                           {
