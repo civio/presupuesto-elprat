@@ -1,2 +1,2 @@
 # presupuesto-elprat
-Tema base para la adaptación de DVMI
+Adaptación de DVMI para los presupuestos de El Prat de Llobregat
