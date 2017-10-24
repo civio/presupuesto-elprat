@@ -83,8 +83,8 @@ PAYMENTS_LOADER = 'ElpratPaymentsLoader'
 
 # Supported languages. Default: ('es', 'Castellano')
 LANGUAGES = (
+  ('ca', 'Catal&agrave;'),
   ('es', 'Castellano'),
-  ('ca', 'Catal&agrave;')
   # ('en', 'English'),
   # ('eu', 'Euskera'),
   # ('gl', 'Galego'),
