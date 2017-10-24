@@ -9,10 +9,10 @@ MAIN_ENTITY_LEVEL = 'municipio'
 MAIN_ENTITY_NAME = 'El Prat de Llobregat'
 
 # Theme Budget Loader class name. Default: 'SimpleBudgetLoader'
-BUDGET_LOADER = 'ElpratBudgetLoader'
+BUDGET_LOADER = 'ElPratBudgetLoader'
 
 # Theme Payments Loader class name. Default: 'PaymentsLoader'
-PAYMENTS_LOADER = 'ElpratPaymentsLoader'
+# PAYMENTS_LOADER = 'ElPratPaymentsLoader'
 
 
 # Show / hide Settings
@@ -96,7 +96,7 @@ FACEBOOK_ID             = ''
 ANALYTICS_ID            = ''
 
 # Setup Data Source Budget link
-DATA_SOURCE_BUDGET      = ''
+DATA_SOURCE_BUDGET      = 'https://seu.elprat.cat/siac/Tablon.aspx?t=TR&id_grupo=155#p97'
 
 # Setup Data Source Population link
 DATA_SOURCE_POPULATION  = 'http://www.ine.es/jaxiT3/Tabla.htm?t=2861&L=0'
@@ -105,16 +105,16 @@ DATA_SOURCE_POPULATION  = 'http://www.ine.es/jaxiT3/Tabla.htm?t=2861&L=0'
 DATA_SOURCE_INFLATION   = 'http://www.ine.es/jaxiT3/Tabla.htm?t=22350&L=0'
 
 # Setup Main Entity Web Url
-MAIN_ENTITY_WEB_URL     = ''
+MAIN_ENTITY_WEB_URL     = 'http://www.elprat.cat/'
 
 # Setup Main Entity Legal Url (if empty we hide the link)
-MAIN_ENTITY_LEGAL_URL   = ''
+MAIN_ENTITY_LEGAL_URL   = 'http://www.elprat.cat/avis-legal-i-politica-de-privacitat'
 
 # Setup Main Entity Legal Url (if empty we hide the link)
-MAIN_ENTITY_PRIVACY_URL = ''
+MAIN_ENTITY_PRIVACY_URL = 'http://www.elprat.cat/avis-legal-i-politica-de-privacitat'
 
 # External URL for Cookies Policy (if empty we use out template page/cookies.html)
-COOKIES_URL             = ''
+COOKIES_URL             = 'http://www.elprat.cat/avis-legal-i-politica-de-privacitat'
 
 # We can define additional URLs applicable only to the theme. These will get added
 # to the project URL patterns list.

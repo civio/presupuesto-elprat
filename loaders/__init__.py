@@ -1,2 +1,1 @@
-from elprat_budget_loader import ElpratBudgetLoader
-from elprat_payments_loader import ElpratPaymentsLoader
+from el_prat_budget_loader import ElPratBudgetLoader
