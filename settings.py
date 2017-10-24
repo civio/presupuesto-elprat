@@ -84,10 +84,7 @@ PAYMENTS_LOADER = 'ElpratPaymentsLoader'
 # Supported languages. Default: ('es', 'Castellano')
 LANGUAGES = (
   ('ca', 'Catal&agrave;'),
-  ('es', 'Castellano'),
-  # ('en', 'English'),
-  # ('eu', 'Euskera'),
-  # ('gl', 'Galego'),
+  ('es', 'Castellano')
 )
 
 # Facebook Aplication ID used in social_sharing temaplate. Default: ''
