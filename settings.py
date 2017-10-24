@@ -143,33 +143,20 @@ OVERVIEW_USE_NEW_VIS = True
 OVERVIEW_INCOME_NODES = [
                           {
                             'nodes': [['11', '113']],
-                            'label': 'Impuesto a bienes inmuebles de naturaleza urbana',
+                            'label.ca': 'Impost sobre béns immobles de naturalesa urbana',
+                            'label.es': 'Impuesto sobre bienes inmuebles de naturaleza urbana',
                             'link_id': '11'
                           },
                           {
-                            'nodes': [['30', '300']],
-                            'label': 'Servicio de abastecimiento de agua',
-                            'link_id': '30'
-                          },
-                          '42', '45',
-                          {
-                            'nodes': [['29', '293']],
-                            'label': 'Impuesto general indirecto canario (IGIC)',
-                            'link_id': '29'
-                          },
-                          {
-                            'nodes': [['11', '115']],
-                            'label': 'Impuesto sobre vehículos de tracción mecánica',
+                            'nodes': [['11', '114']],
+                            'label.ca': 'Impost sobre béns immobles de característiques especials',
+                            'label.es': 'Impuesto sobre bienes inmuebles de características especiales',
                             'link_id': '11'
                           },
-                          {
-                            'nodes': [['30', '302']],
-                            'label': 'Servicio de recogida de basuras',
-                            'link_id': '30'
-                          },
+                          '13', '42', '76', '45', '31'
                         ]
 
-OVERVIEW_EXPENSE_NODES = ['16', '13', '92', '15', '33', '23', '34', '17', '32']
+OVERVIEW_EXPENSE_NODES = ['15', '16', '33', '92', '23', '32', '34', '13']
 
 # How much padding between Sankey nodes. Default: 2 (Optional)
 # OVERVIEW_NODE_PADDING = 2
