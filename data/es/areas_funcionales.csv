@@ -48,6 +48,7 @@
 1,5,0,0,Administración mantenimiento y servicios
 1,5,0,1,Servicios
 1,5,1,,Urbanismo
+1,5,1,0,Urbanismo
 1,5,1,1,Urbanismo
 1,5,1,2,Proyectos urbanos y obras municipales
 1,5,1,3,Licencias de obras y actividades
@@ -55,6 +56,7 @@
 1,5,2,1,Promoción y gestión de vivienda de protección pública
 1,5,2,2,Conservación y rehabilitación de la edificación
 1,5,3,,Vías públicas
+1,5,3,0,Vías públicas
 1,5,3,1,Acceso a los núcleos de población
 1,5,3,2,Pavimentación de vías públicas
 1,5,3,3,Mejora espacios públicos
@@ -73,6 +75,7 @@
 1,7,1,,Parques y jardines
 1,7,1,0,Parques y jardines
 1,7,2,,Protección y mejora del medio ambiente
+1,7,2,0,Protección y mejora del medio ambiente
 1,7,2,1,"Protección contra la contaminación acústica, lumínica y atmosférica en las zonas urbanas"
 1,7,2,10,Programa ahorro energético
 1,7,2,2,Aportación Consorcio Espacios Naturales del Delta
@@ -87,6 +90,7 @@
 2,3,1,5,Plan actuación San Cosme
 2,3,1,6,Mujer
 2,3,1,7,Igualdad y solidaridad
+2,3,1,8,Personas mayores
 2,3,3,,Integración social personas con discapacidad
 2,4,1,,Fomento del empleo
 2,4,1,0,Fomento del empleo
@@ -114,6 +118,8 @@
 3,2,3,0,Funcionamiento de centros docentes de enseñanza preescolar y primaria y educación especial
 3,2,3,1,Guarderías
 3,2,3,2,Funcionamiento escuelas Conservación y mantenimiento
+3,2,4,,Funcionamiento de centros docentes de enseñanza secundaria
+3,2,4,0,Funcionamiento de centros docentes de enseñanza secundaria
 3,2,6,,Servicios complementarios de educación
 3,2,6,0,Servicios complementarios de educación
 3,2,7,,Fomento de la convivencia ciudadana
@@ -123,6 +129,7 @@
 3,3,0,1,Administración general de cultura
 3,3,0,2,Juventud
 3,3,2,,Bibliotecas y archivos
+3,3,2,0,Bibliotecas y archivos
 3,3,2,1,Bibliotecas públicas
 3,3,2,2,Archivos
 3,3,3,,Equipamientos culturales y museos
@@ -148,6 +155,7 @@
 3,4,2,5,CEM Fondo de En Peixo
 4,1,9,,"Otras actuaciones en agricultura, ganadería y pesca"
 4,1,9,0,"Otras actuaciones en agricultura, ganadería y pesca"
+4,2,0,0,Administración general de industria y energía
 4,3,0,,"Administración general de comercio, turismo y pequeñas y medianas empresas"
 4,3,0,0,"Administración general de comercio, turismo y pequeñas y medianas empresas"
 4,3,1,,Comercio
@@ -186,6 +194,9 @@
 9,2,3,1,Gestión del padrón municipal de habitantes
 9,2,4,,Participación ciudadana
 9,2,4,0,Participación ciudadana
+9,2,4,1,Participación ciudadana
+9,2,4,2,Civismo
+9,2,4,3,Cooperación
 9,2,5,,Atención a los ciudadanos
 9,2,5,0,Atención a los ciudadanos
 9,2,9,,"Imprevistos, situaciones transitorias y contingencias de ejecución"
@@ -202,3 +213,7 @@
 9,4,2,0,Transferencias a entidades locales territoriales
 9,4,3,,Transferencias a otras entidades locales
 9,4,3,0,Transferencias a otras entidades locales
+#
+# Programas antiguos del Prat de Llobregat
+#
+3,4,2,X,CEM Julio Méndez y CEM Fondo de En Peixo

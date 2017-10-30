@@ -48,6 +48,7 @@
 1,5,0,0,Administració manteniment i serveis
 1,5,0,1,Serveis
 1,5,1,,Urbanisme
+1,5,1,0,Urbanisme
 1,5,1,1,Urbanisme
 1,5,1,2,Projectes urbans i obres municipals
 1,5,1,3,Llicències d'obres i activitats
@@ -55,6 +56,7 @@
 1,5,2,1,Promoció i gestió d’habitatge de protecció pública
 1,5,2,2,Conservació i rehabilitació de l’edificació
 1,5,3,,Vies públiques
+1,5,3,0,Vies públiques
 1,5,3,1,Accés als nuclis de població
 1,5,3,2,Pavimentació de vies públiques
 1,5,3,3,Millora espacio público
@@ -62,7 +64,7 @@
 1,6,0,0,Clavegueram
 1,6,1,,Proveïment domiciliari d’aigua potable
 1,6,1,0,Proveïment domiciliari d’aigua potable
-1,6,2,1,"Recollida, gestió i tractament de residus"
+1,6,2,,"Recollida, gestió i tractament de residus"
 1,6,2,1,Recollida de residus
 1,6,3,,Neteja viària
 1,6,3,0,Neteja viària
@@ -73,6 +75,7 @@
 1,7,1,,Parcs i jardins
 1,7,1,0,Parcs i jardins
 1,7,2,,Protecció i millora del medi ambient
+1,7,2,0,Protecció i millora del medi ambient
 1,7,2,1,"Protecció contra la contaminació acústica, lumínica i atmosfèrica en les zones urbanes"
 1,7,2,10,Programa estalvi energètic
 1,7,2,2,Aportació Consorci Espais Naturals del Delta
@@ -87,6 +90,7 @@
 2,3,1,5,Pla actuació Sant Cosme
 2,3,1,6,Dona
 2,3,1,7,Igualtat i solidaritat
+2,3,1,8,Gent gran
 2,3,3,,Integració social persones amb discapacitat
 2,4,1,,Foment de l’ocupació
 2,4,1,0,Foment de l’ocupació
@@ -114,6 +118,8 @@
 3,2,3,0,Funcionament de centres docents d’ensenyament preescolar i primària i educació especial
 3,2,3,1,Escoles bressol
 3,2,3,2,Funcionament escoles Conservació i manteniment
+3,2,4,,Funcionament de centres docents d'ensenyament secundari
+3,2,4,0,Funcionament de centres docents d'ensenyament secundari
 3,2,6,,Serveis complementaris d’educació
 3,2,6,0,Serveis complementaris d’educació
 3,2,7,,Foment de la convivència ciutadana
@@ -123,6 +129,7 @@
 3,3,0,1,Administració general de cultura
 3,3,0,2,Joventut
 3,3,2,,Biblioteques i arxius
+3,3,2,0,Biblioteques i arxius
 3,3,2,1,Biblioteques públiques
 3,3,2,2,Arxius
 3,3,3,,Equipaments culturals i museus
@@ -146,8 +153,9 @@
 3,4,2,3,Activitats esportives CEM Estruch
 3,4,2,4,CEM Julio Méndez
 3,4,2,5,CEM Fondo d'En Peixo
-4,1,9,,"Altres actuacions en agricultura, ramaderia i pesca         "
-4,1,9,0,"Altres actuacions en agricultura, ramaderia i pesca         "
+4,1,9,,"Altres actuacions en agricultura, ramaderia i pesca"
+4,1,9,0,"Altres actuacions en agricultura, ramaderia i pesca"
+4,2,0,0,Administració general d'indústria i energia
 4,3,0,,"Administració general de comerç, turisme i petites i mitjanes empreses"
 4,3,0,0,"Administració general de comerç, turisme i petites i mitjanes empreses"
 4,3,1,,Comerç
@@ -186,6 +194,9 @@
 9,2,3,1,Gestió del padró municipal d’habitants
 9,2,4,,Participació ciutadana
 9,2,4,0,Participació ciutadana
+9,2,4,1,Participació ciutadana
+9,2,4,2,Civisme
+9,2,4,3,Cooperación
 9,2,5,,Atenció als ciutadans
 9,2,5,0,Atenció als ciutadans
 9,2,9,,"Imprevistos, situacions transitòries i contingències d’execució"
@@ -202,3 +213,7 @@
 9,4,2,0,Transferències a entitats locals territorials
 9,4,3,,Transferències a altres entitats locals
 9,4,3,0,Transferències a altres entitats locals
+#
+# Programas antiguos del Prat de Llobregat
+#
+3,4,2,X,CEM Julio Méndez i CEM Fondo d'En Peixo
