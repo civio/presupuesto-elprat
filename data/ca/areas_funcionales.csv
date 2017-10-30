@@ -53,6 +53,7 @@
 1,5,1,2,Projectes urbans i obres municipals
 1,5,1,3,Llicències d'obres i activitats
 1,5,2,,Habitatge
+1,5,2,0,Habitatge
 1,5,2,1,Promoció i gestió d’habitatge de protecció pública
 1,5,2,2,Conservació i rehabilitació de l’edificació
 1,5,3,,Vies públiques
@@ -65,11 +66,14 @@
 1,6,1,,Proveïment domiciliari d’aigua potable
 1,6,1,0,Proveïment domiciliari d’aigua potable
 1,6,2,,"Recollida, gestió i tractament de residus"
+1,6,2,0,"Recollida, gestió i tractament de residus"
 1,6,2,1,Recollida de residus
 1,6,3,,Neteja viària
 1,6,3,0,Neteja viària
 1,6,5,,Enllumenat públic
 1,6,5,0,Enllumenat públic
+1,6,9,,Altres serveis de benestar comunitari
+1,6,9,0,Altres serveis de benestar comunitari
 1,7,0,,Administració general del medi ambient
 1,7,0,0,Administració general del medi ambient
 1,7,1,,Parcs i jardins
@@ -81,6 +85,8 @@
 1,7,2,2,Aportació Consorci Espais Naturals del Delta
 2,2,1,,Altres prestacions econòmiques a favor d’empleats
 2,2,1,0,Altres prestacions econòmiques a favor d’empleats
+2,3,0,,Administració general de serveis socials
+2,3,0,0,Administració general de serveis socials
 2,3,1,,Assistència social primària
 2,3,1,0,Administració general de serveis socials
 2,3,1,1,Atenció primària
@@ -91,7 +97,10 @@
 2,3,1,6,Dona
 2,3,1,7,Igualtat i solidaritat
 2,3,1,8,Gent gran
+2,3,2,,Promoció social
+2,3,2,0,Promoció social
 2,3,3,,Integració social persones amb discapacitat
+2,3,3,0,Integració social persones amb discapacitat
 2,4,1,,Foment de l’ocupació
 2,4,1,0,Foment de l’ocupació
 2,4,1,1,"Administració general Promoció Econòmica, Comerç i Ocupació"
@@ -111,6 +120,7 @@
 3,2,0,0,Administració general
 3,2,0,1,Planificació i seguiment altres ensenyaments
 3,2,0,2,Millora de l'ensenyament públic
+3,2,0,6,Programa ciutat dels infants
 3,2,1,,Creació de centres docents d'enseyament preescolar i primària
 3,2,2,,Creació de centres docents d'enseyament secundari
 3,2,2,0,Creació de centres docents d'enseyament secundari
@@ -136,8 +146,12 @@
 3,3,3,0,Equipaments culturals i museus
 3,3,4,,Promoció cultural
 3,3,4,0,Promoció cultural
+3,3,5,,Arts escèniques
+3,3,5,0,Arts escèniques
 3,3,6,,Protecció i gestió del patrimoni historicoartístic
 3,3,6,0,Protecció i gestió del patrimoni historicoartístic
+3,3,7,,Oci i temps lliure
+3,3,7,0,Oci i temps lliure
 3,3,8,,Festes populars i celebracions
 3,3,8,0,Festes populars i celebracions
 3,4,0,,Administració general d'esports
@@ -159,6 +173,7 @@
 4,3,0,,"Administració general de comerç, turisme i petites i mitjanes empreses"
 4,3,0,0,"Administració general de comerç, turisme i petites i mitjanes empreses"
 4,3,1,,Comerç
+4,3,1,0,Comerç
 4,3,1,1,Fires
 4,3,1,2,"Mercats, places i llotges"
 4,3,2,,Informació i promoció turística
@@ -170,6 +185,7 @@
 4,4,0,,Administració general del transport
 4,4,0,0,Administració general del transport
 4,4,1,,Transport de viatgers
+4,4,1,0,Transport de viatgers
 4,4,1,1,Transport col·lectiu urbà de viatgers
 4,9,1,,Societat de la informació
 4,9,1,0,Societat de la informació
