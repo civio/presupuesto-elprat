@@ -39,8 +39,8 @@ class ElPratBudgetLoader(SimpleBudgetLoader):
             '3240':'3260',  # Servicios complementarios de educación -> Servicios complementarios de educación
         }
 
-        # There are some programmes in the 2015 budget that change in 2016 and afterwars, as part of the 2015 new laws
-        programme_mapping_2015 = {
+        # There are some programmes in the 2015 budget that also change in 2016 and afterwars, as part of the new laws
+        programme_mapping_pre_2016 = {
         # original programme: placeholer programme
             '2314':'2315',  # Plan Actuación San Cosme -> Plan actuación San Cosme
             '2315':'2317',  # Ciudadanía e Inmigración -> Igualdad y solidaridad
@@ -76,8 +76,8 @@ class ElPratBudgetLoader(SimpleBudgetLoader):
             if int(year) < 2015:
                 fc_code = programme_mapping_pre_2015.get(fc_code, fc_code)
 
-            if int(year) == 2015:
-                fc_code = programme_mapping_2015.get(fc_code, fc_code)
+            if int(year) < 2016:
+                fc_code = programme_mapping_pre_2016.get(fc_code, fc_code)
 
             # Economic code
             # We got 3-, 4-, 5- or 6- digit economic codes as input, so we normalize them at 5- and add trailing zeroes when required
