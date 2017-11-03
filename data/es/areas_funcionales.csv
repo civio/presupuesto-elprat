@@ -66,7 +66,6 @@
 1,6,1,,Abastecimiento domiciliario de agua potable
 1,6,1,0,Abastecimiento domiciliario de agua potable
 1,6,2,,"Recogida, gestión y tratamiento de residuos"
-1,6,2,0,"Recogida, gestión y tratamiento de residuos"
 1,6,2,1,Recogida de residuos
 1,6,3,,Limpieza viaria
 1,6,3,0,Limpieza viaria
@@ -186,7 +185,6 @@
 4,4,0,,Administración general del transporte
 4,4,0,0,Administración general del transporte
 4,4,1,,Transporte de viajeros
-4,4,1,0,Transporte de viajeros
 4,4,1,1,Transporte colectivo urbano de viajeros
 4,9,1,,Sociedad de la información
 4,9,1,0,Sociedad de la información

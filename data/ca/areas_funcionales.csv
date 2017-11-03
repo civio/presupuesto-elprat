@@ -66,7 +66,6 @@
 1,6,1,,Proveïment domiciliari d’aigua potable
 1,6,1,0,Proveïment domiciliari d’aigua potable
 1,6,2,,"Recollida, gestió i tractament de residus"
-1,6,2,0,"Recollida, gestió i tractament de residus"
 1,6,2,1,Recollida de residus
 1,6,3,,Neteja viària
 1,6,3,0,Neteja viària
@@ -186,7 +185,6 @@
 4,4,0,,Administració general del transport
 4,4,0,0,Administració general del transport
 4,4,1,,Transport de viatgers
-4,4,1,0,Transport de viatgers
 4,4,1,1,Transport col·lectiu urbà de viatgers
 4,9,1,,Societat de la informació
 4,9,1,0,Societat de la informació

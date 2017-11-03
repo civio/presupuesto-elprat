@@ -25,6 +25,7 @@ class ElPratBudgetLoader(SimpleBudgetLoader):
             '1340':'1350',  # Protección civil -> Protección civil
             '1550':'1530',  # Vías públicas -> Vías públicas
             '1551':'1530',  # Parque móvil urbanismo-brigada -> Vías públicas
+            '1620':'1621',  # Recogida, gestión y tratamiento de residuos -> Recogida de residuos
             '2311':'2312',  # Residencia de ancianos -> Residencia de ancianos
             '3130':'3110',  # Acciones públicas relativas a la salud -> Protección de la salubridad pública
             '3131':'3111',  # Promoción de la salud -> Promoción de la salud
@@ -37,6 +38,7 @@ class ElPratBudgetLoader(SimpleBudgetLoader):
             '3212':'3232',  # Conservación, mantenimiento y vigilancia escuelas -> Conservación, mantenimiento y vigilancia escuelas
             '3230':'3240',  # Promoción educativa -> Funcionamiento de centros docentes de enseñanza secundaria
             '3240':'3260',  # Servicios complementarios de educación -> Servicios complementarios de educación
+            '4410':'4411',  # Transporte de viajeros -> Transporte colectivo urbano de viajeros
         }
 
         # There are some programmes in the 2015 budget that also change in 2016 and afterwars, as part of the new laws
