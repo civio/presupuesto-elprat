@@ -1,0 +1,83 @@
+<script>
+  $(function(){
+
+    var breakdown = {{ breakdown.to_json( labels=descriptions['functional'] )|safe }},
+        getBreakdownValue = getBreakdownValueFunction('expense', '{{ latest_budget.name()|safe }}'),
+        gridData = breakdownToTable(breakdown),
+        myGrid;
+
+
+    // Set house tax values & callback
+    TaxReceipt.taxes.houseExtra          = { selector: 'extra-house' };
+    TaxReceipt.taxes.houseExtra.callback =
+    TaxReceipt.taxes.house.callback      = function(selector, values) {
+      var value = +$('#select-'+selector).val();
+      var bonus = $('#select-'+selector+'-bonus').val()
+      var bonus_value = 0;
+      if (bonus == '1') {
+        bonus_value = 0.5;
+      } else if (bonus == '2') {
+        if (value <= 77598) {
+          bonus_value = 0.5;
+        } else if (value <= 121000) {
+          bonus_value = 0.4;
+        } else if (value <= 242000) {
+          bonus_value = 0.3;
+        } else if (value <= 363000) {
+          bonus_value = 0.2;
+        } else {
+          bonus_value = 0.1;
+        }
+      } else if (bonus == '3') {
+        if (value <= 77598) {
+          bonus_value = 0.9;
+        } else if (value <= 121000) {
+          bonus_value = 0.8;
+        } else if (value <= 242000) {
+          bonus_value = 0.6;
+        } else if (value <= 363000) {
+          bonus_value = 0.4;
+        } else {
+          bonus_value = 0.2;
+        }
+      }
+      return value * 0.00552 * (1-bonus_value);
+    };
+
+    // Set vehicles tax values & callback
+    TaxReceipt.taxes.vehicle.values        = [0, 8.5, 25, 68, 143.5, 179, 224];
+    TaxReceipt.taxes.vehicleExtra.values   = [0, 8.5, 25, 68, 143.5, 179, 224];
+    TaxReceipt.taxes.vehicle.callback      =
+    TaxReceipt.taxes.vehicleExtra.callback = function(selector, values) {
+      var value = values[$('#select-'+selector).val()];
+      var bonus = [0, 1, 0.5, 0.5, 1, 0.75][$('#select-'+selector+'-bonus').val()];
+      return value * (1-bonus);
+    }
+    // Set parking tax values
+    TaxReceipt.taxes.parking.values = [0, 154, 205];
+
+    // Remove garbage tax
+    delete TaxReceipt.taxes.garbage;
+
+    // Override redrawGrid method
+    TaxReceipt.redrawGrid = function() {
+      if ( myGrid !== undefined ) {
+        myGrid.destroy();
+      }
+
+      myGrid = createBudgetGrid('#myGrid', gridData, [
+        { data: 'label', title: '{{ _("Política") }}', render: getPolicyLinkFormatter() },
+        {
+          data:   getBreakdownValue,
+          title:  '{{ _("Gasto") }}',
+          render: TaxReceipt.calculatePersonalTax,
+          year:   breakdown.years['{{ latest_budget.name()|safe }}']
+        }
+      ]);
+    };
+
+    // Initialize tax receipt
+    TaxReceipt.setup( breakdown, getBreakdownValue );
+
+  });
+</script>

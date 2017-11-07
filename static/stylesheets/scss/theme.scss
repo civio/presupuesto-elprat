@@ -1,1 +1,21 @@
 @import "theme-variables";
+
+.tax-receipt-content .form-user-incomings{
+  padding-top: 30px;
+}
+
+.tax-receipt-content #tax-amount{
+  color: white;
+  background: $brand-primary;
+  font-size: 1.625em;
+  padding: 20px 15px;
+
+  > p{
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+
+  #tax-amount-paid{
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,106 @@
+<form class="form-user-incomings" action="#" method="get">
+
+  <div class="row">
+    <p>{{ _('VIVIENDA HABITUAL') }}</p>
+    <div class="form-group">
+      <label for="select-house">{{ _('Introduce el valor catastral') }}</label>
+      <div class="input-group">
+        <input id="select-house" type="number" min="0" step="any" class="form-control">
+        <div class="input-group-addon">€</div>
+      </div>
+    </div>
+    <div class="select-info">{{ _('IBI') }}: <span id="select-house-tax"></span></div>
+    <div class="form-group" style="clear: both">
+      <label for="select-house-bonus">{{ _('Bonificación IBI') }}</label>
+      <select id="select-house-bonus" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguna') }}</option>
+        <option value="1" type="text">{{ _('Vivienda protección pública (3 primeros años)') }}</option>
+        <option value="2" type="text">{{ _('Familia Numerosa General') }}</option>
+        <option value="3" type="text">{{ _('Familia Numerosa Especial') }}</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row">
+    <p>{{ _('VIVIENDA ADICCIONAL') }}</p>
+    <div class="form-group">
+      <label for="select-extra-house">{{ _('Introduce el valor catastral') }}</label>
+      <div class="input-group">
+        <input id="select-extra-house" type="number" min="0" step="any" class="form-control">
+        <div class="input-group-addon">€</div>
+      </div>
+    </div>
+    <div class="select-info">{{ _('IBI') }}: <span id="select-extra-house-tax"></span></div>
+  </div>
+    
+  <div class="row">
+    <div class="form-group">
+      <label for="select-vehicle">{{ _('Vehículo') }}</label>
+      <select id="select-vehicle" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguno') }}</option>
+        <option value="1" type="text">{{ _('Ciclomotores hasta 49 cc o Motocicletas hasta 125 cc') }}</option>
+        <option value="2" type="text">{{ _('Coche muy pequeño (menos de 8 caballos fiscales)') }}</option>
+        <option value="3" type="text">{{ _('Coche pequeño (entre 8 y 12 caballos fiscales)') }}</option>
+        <option value="4" type="text">{{ _('Coche mediano (entre 12 y 16 caballos fiscales)') }}</option>
+        <option value="5" type="text">{{ _('Coche grande (entre 16 y 20 caballos fiscales)') }}</option>
+        <option value="6" type="text">{{ _('Coche muy grande (más de 20 caballos fiscales)') }}</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('Impuesto a vehículos motorizados') }}: <span id="select-vehicle-tax"></span></div>
+    <div class="form-group" style="clear: both">
+      <label for="select-vehicle-bonus">{{ _('Bonificación') }}</label>
+      <select id="select-vehicle-bonus" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguna') }}</option>
+        <option value="1" type="text">{{ _('Titular del vehículo a nombre de discapacitados para su uso exclusivo (grado igual o superior al 33% o incapacidad permanente en grado total, absoluta o gran invalidez') }}</option>
+        <option value="2" type="text">{{ _('Vehículo histórico (art. 1 RD 1247/1995)') }}</option>
+        <option value="3" type="text">{{ _('Vehículo con antiguedad entre 25 y 50 años') }}</option>
+        <option value="4" type="text">{{ _('Vehículo con antiguedad superior a 50 años') }}</option>
+        <option value="5" type="text">{{ _('Vehículo clasificado en el Registre de Vehicles de la Direcció Gemeral Trànsit como "Zero emissions" o "Eco"') }}</option>
+      </select>
+    </div>
+  </div>
+    
+  <div class="row">
+    <div class="form-group">
+      <label for="select-extra-vehicle">{{ _('Vehículo adicional') }}</label>
+      <select id="select-extra-vehicle" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguno') }}</option>
+        <option value="1" type="text">{{ _('Ciclomotores hasta 49 cc o Motocicletas hasta 125 cc') }}</option>
+        <option value="2" type="text">{{ _('Coche muy pequeño (menos de 8 caballos fiscales)') }}</option>
+        <option value="3" type="text">{{ _('Coche pequeño (entre 8 y 12 caballos fiscales)') }}</option>
+        <option value="4" type="text">{{ _('Coche mediano (entre 12 y 16 caballos fiscales)') }}</option>
+        <option value="5" type="text">{{ _('Coche grande (entre 16 y 20 caballos fiscales)') }}</option>
+        <option value="6" type="text">{{ _('Coche muy grande (más de 20 caballos fiscales)') }}</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('Impuesto a vehículos motorizados') }}: <span id="select-extra-vehicle-tax"></span></div>
+    <div class="form-group" style="clear: both">
+      <label for="select-extra-vehicle-bonus">{{ _('Bonificación') }}</label>
+      <select id="select-extra-vehicle-bonus" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguna') }}</option>
+        <option value="1" type="text">{{ _('Titular del vehículo a nombre de discapacitados para su uso exclusivo (grado igual o superior al 33% o incapacidad permanente en grado total, absoluta o gran invalidez') }}</option>
+        <option value="2" type="text">{{ _('Vehículo histórico (art. 1 RD 1247/1995)') }}</option>
+        <option value="3" type="text">{{ _('Vehículo con antiguedad entre 25 y 50 años') }}</option>
+        <option value="4" type="text">{{ _('Vehículo con antiguedad superior a 50 años') }}</option>
+        <option value="5" type="text">{{ _('Vehículo clasificado en el Registre de Vehicles de la Direcció Gemeral Trànsit como "Zero emissions" o "Eco"') }}</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="form-group">
+      <label for="select-parking">{{ _('¿Tienes un vado?') }}</label>
+      <select id="select-parking" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('No') }}</option>
+        <option value="1" type="text">{{ _('Sí, horario permanente hasta 3 metros') }}</option>
+        <option value="2" type="text">{{ _('Sí, horario permanente hasta 4 metros') }}</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('Tasa') }}: <span id="select-parking-tax"></span></div>
+  </div>
+
+</form>
+
+<div id="tax-amount">
+  <p>{{ _('Contribuyes con un total de <b id="tax-amount-paid"></b> a los presupuestos del Ayuntamiento del Prat de Llobregat')|safe }}.</p>
+</div>  
