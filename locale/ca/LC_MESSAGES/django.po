@@ -25,9 +25,13 @@ msgstr "Pressupostos de l'Ajuntament del Prat de Llobregat"
 msgid "Información presupuestaria del Gobierno de Aragón"
 msgstr "Informació pressupostària de l'Ajuntament del Prat de Llobregat"
 
+#: templates/budgets/budgets_intro.html:10
+msgid "Se realiza a través de impuestos directos -como el impuesto de bienes inmuebles (IBI) o el de vehículos de tracción mecánica (IVTM)- y de tasas -como la de recogida de basura"
+msgstr "Es realitza a través d'impostos directes, principalment l'IBI, i de taxes -com la de serveis esportius"
+
 #: templates/budgets/budgets_intro.html:16
 msgid "El dinero recaudado localmente se complementa con las transferencias de la Administración General del Estado y del Gobierno de Aragón, que son los encargados de recaudar otros ingresos como el IVA y el IRPF"
-msgstr "El pressupost municipal inclou altres ingressos provinents, principalment, de l'Administració General de l'Estat i de la Generalitat de Catalunya, que són els encarregats de recaptar altres ingressos com l'IVA i o l'IRPF"
+msgstr "La recaptació local se complementa amb les transferències i subvencions de l'Administració General de l'Estat i de la Generalitat de Catalunya (entitats encarregades de recaptar ingressos com l'IVA i o l'IRPF."
 
 #: templates/budgets/index.html:17
 msgid "Ingresos y gastos en el Gobierno de Aragón"
@@ -53,11 +57,20 @@ msgstr "Contribueixes amb un total de <strong id=\"tax-amount-paid\"></strong> a
 
 #: templates/welcome/index.html:12
 msgid "¿Cómo y en qué gasta el Gobierno de Aragón?"
-msgstr "D’on vénen els ingressos? En què i per a què és la despesa de l’Ajuntament del Prat de Llobregat?"
+msgstr "D’on vénen els ingressos? Com i en què gasta l'Ajuntament del Prat de Llobregat?"
 
 #: templates/welcome/index.html:42
 msgid "Para que tengas una idea general de los ingresos y gastos del Gobierno de Aragón"
 msgstr "Perquè et facis una idea general dels ingressos i les despeses de l'Ajuntament del Prat de Llobregat"
+
+#: templates/shared/data_controllers_select.html:3
+msgid "Reales (ajustadas a inflación)"
+msgstr "Ajustats a inflación"
+
+#: templates/shared/data_controllers_select.html:7
+msgid "Per-capita (real)"
+msgstr "Per càpita (ajustat inflació)"
+
 
 # Tax receipt
 
@@ -123,3 +136,7 @@ msgstr "Sí, horari permanent fins a 3 metres"
 
 msgid "Sí, horario permanente hasta 4 metros"
 msgstr "Sí, horari permanent fins a 4 metres"
+
+#: templates/shared/footer.html:25
+msgid "Política de Privacidad"
+msgstr "Política de Privacitat"
