@@ -76,3 +76,13 @@ msgstr "Ajustados a inflación"
 #: templates/shared/data_controllers_select.html:7
 msgid "Per-capita (real)"
 msgstr "Per cápita (ajustado inflación)"
+
+
+msgid "VIVIENDA ADICCIONAL"
+msgstr "VIVIENDA ADICIONAL"
+
+msgid "Impuesto a vehículos motorizados"
+msgstr "Impuesto vehículos tracción mecánica"
+
+msgid "Vehículo clasificado en el Registre de Vehicles de la Direcció Gemeral Trànsit como \"Zero emissions\" o \"Eco\""
+msgstr "Vehículo clasificado en el Registre de Vehicles de la Direcció General Trànsit como \"Zero emissions\" o \"Eco\""

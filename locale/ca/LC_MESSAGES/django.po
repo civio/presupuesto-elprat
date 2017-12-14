@@ -78,13 +78,16 @@ msgid "VIVIENDA HABITUAL"
 msgstr "HABITATGE HABITUAL"
 
 msgid "VIVIENDA ADICCIONAL"
-msgstr "HABITATGE ADICCIONAL"
+msgstr "HABITATGE ADDICIONAL" 
 
 msgid "Introduce el valor catastral"
 msgstr "Introdueix el valor cadastral"
 
 msgid "Bonificación IBI"
 msgstr "Bonificació IBI"
+
+msgid "Bonificación"
+msgstr "Bonificació"
 
 msgid "Ninguna"
 msgstr "Cap"
@@ -129,13 +132,16 @@ msgid "Vehículo con antiguedad superior a 50 años"
 msgstr "Vehicle amb antiguitat superior a 50 anys"
 
 msgid "Vehículo clasificado en el Registre de Vehicles de la Direcció Gemeral Trànsit como \"Zero emissions\" o \"Eco\""
-msgstr "Vehicle classificat en el Registre de Vehicles de la Direcció Gemeral Trànsit com de \"Zero emissions\" o \"Eco\""
+msgstr "Vehicle classificat en el Registre de Vehicles de la Direcció General Trànsit com de \"Zero emissions\" o \"Eco\""
 
 msgid "Sí, horario permanente hasta 3 metros"
 msgstr "Sí, horari permanent fins a 3 metres"
 
 msgid "Sí, horario permanente hasta 4 metros"
 msgstr "Sí, horari permanent fins a 4 metres"
+
+msgid "Impuesto a vehículos motorizados"
+msgstr "Impost vehicles tracció mecánica"
 
 #: templates/shared/footer.html:25
 msgid "Política de Privacidad"
