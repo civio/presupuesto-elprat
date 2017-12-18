@@ -174,7 +174,7 @@ OVERVIEW_EXPENSE_NODES = ['15', '16', '33', '92', '23', '32', '34', '13']
 # OVERVIEW_FORCE_ORDER = False
 
 # Adjust inflation in amounts in Overview page. Default: True
-# ADJUST_INFLATION_IN_OVERVIEW = False
+ADJUST_INFLATION_IN_OVERVIEW = False
 
 # Show Subtotals panel in Overview. Default: False
 # SHOW_OVERVIEW_SUBTOTALS = True
