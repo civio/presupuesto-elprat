@@ -143,23 +143,48 @@ OVERVIEW_USE_NEW_VIS = True
 OVERVIEW_INCOME_NODES = [
                           {
                             'nodes': [['11', '113']],
-                            'label.ca': 'Impost sobre béns immobles de naturalesa urbana',
-                            'label.es': 'Impuesto sobre bienes inmuebles de naturaleza urbana',
+                            'label.ca': 'Sobre béns immobles de característiques especials',
+                            'label.es': ' Sobre bienes inmuebles de características especiales',
                             'link_id': '11'
                           },
                           {
                             'nodes': [['11', '114']],
-                            'label.ca': 'Impost sobre béns immobles de característiques especials',
-                            'label.es': 'Impuesto sobre bienes inmuebles de características especiales',
+                            'label.ca': 'Sobre béns immobles de naturalesa urbana',
+                            'label.es': 'Sobre bienes inmuebles de naturaleza urbana',
                             'link_id': '11'
                           },
-                          '13', '42', '76', '45', '31'
+                          '42', '13', 
+                          {
+                            'nodes': ['30', '31', '32', '33', '34', '36', '38', '39'],
+                            'label.ca': 'Taxes, preus públics i altres ingressos',
+                            'label.es': 'Tasas, precios públicos y otros ingresos',
+                            'link_id': '30'
+                          },
+                          {
+                            'nodes': [['11', '112'], ['11', '115'], ['11', '116']],
+                            'label.ca': 'Resto impostos directes',
+                            'label.es': 'Resto impuestos directos',
+                            'link_id': '11'
+                          },
+                          {
+                            'nodes': [['46', '461'], ['46', '462'], ['46', '464'], ['46', '465'], ['76', '761'], ['76', '764']],
+                            'label.ca': 'D\'entitats locals',
+                            'label.es': 'De Entidades Locales',
+                            'link_id': '46'
+                          },
+                          {
+                            'nodes': ['45', '75'],
+                            'label.ca': 'De comunitats autònomes',
+                            'label.es': 'De Comunidades Autónomas',
+                            'link_id': '45'
+                          },
+                          '29'
                         ]
 
-OVERVIEW_EXPENSE_NODES = ['15', '16', '33', '92', '23', '32', '34', '13']
+OVERVIEW_EXPENSE_NODES = ['15', '16', '33', '32', '34', '13', '17', '01']
 
 # How much padding between Sankey nodes. Default: 2 (Optional)
-# OVERVIEW_NODE_PADDING = 2
+OVERVIEW_NODE_PADDING = 4
 
 # Overview node minimum height to show labels. Default: 16 (Optional)
 # OVERVIEW_LABELS_MIN_SIZE = 16
