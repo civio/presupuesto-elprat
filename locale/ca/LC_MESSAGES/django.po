@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-11 17:16+0100\n"
-"PO-Revision-Date: 2016-11-28 04:04+0100\n"
+"PO-Revision-Date: 2017-12-22 12:22+0100\n"
 "Last-Translator: David Cabo <david@civio.es>\n"
 "Language-Team: \n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.0.5\n"
 
 #: templates/base.html:4 templates/shared/social_sharing.html:5
 msgid "Presupuestos del Gobierno de Aragón"
@@ -27,11 +27,11 @@ msgstr "Informació pressupostària de l'Ajuntament del Prat de Llobregat"
 
 #: templates/budgets/budgets_intro.html:10
 msgid "Se realiza a través de impuestos directos -como el impuesto de bienes inmuebles (IBI) o el de vehículos de tracción mecánica (IVTM)- y de tasas -como la de recogida de basura"
-msgstr "Es realitza a través d'impostos directes, principalment l'IBI, i de taxes -com la de serveis esportius"
+msgstr "Es realitza a través d'impostos directes, principalment l'IBI, i de taxes -com la de serveis esportius-"
 
 #: templates/budgets/budgets_intro.html:16
 msgid "El dinero recaudado localmente se complementa con las transferencias de la Administración General del Estado y del Gobierno de Aragón, que son los encargados de recaudar otros ingresos como el IVA y el IRPF"
-msgstr "La recaptació local se complementa amb les transferències i subvencions de l'Administració General de l'Estat i de la Generalitat de Catalunya (entitats encarregades de recaptar ingressos com l'IVA i o l'IRPF."
+msgstr "La recaptació local se complementa amb les transferències i subvencions de l'Administració General de l'Estat i de la Generalitat de Catalunya (entitats encarregades de recaptar ingressos com l'IVA i o l'IRPF)"
 
 #: templates/budgets/index.html:17
 msgid "Ingresos y gastos en el Gobierno de Aragón"
@@ -71,14 +71,12 @@ msgstr "Ajustats a inflación"
 msgid "Per-capita (real)"
 msgstr "Per càpita (ajustat inflació)"
 
-
 # Tax receipt
-
 msgid "VIVIENDA HABITUAL"
 msgstr "HABITATGE HABITUAL"
 
 msgid "VIVIENDA ADICCIONAL"
-msgstr "HABITATGE ADDICIONAL" 
+msgstr "HABITATGE ADDICIONAL"
 
 msgid "Introduce el valor catastral"
 msgstr "Introdueix el valor cadastral"
