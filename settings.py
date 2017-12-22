@@ -181,7 +181,19 @@ OVERVIEW_INCOME_NODES = [
                           '29'
                         ]
 
-OVERVIEW_EXPENSE_NODES = ['15', '16', '33', '32', '34', '13', '17', '01']
+OVERVIEW_EXPENSE_NODES = [
+                          {
+                            'nodes': ['91', '92', '93', '94'],
+                            'label.ca': 'Administració general',
+                            'label.es': 'Administración general'
+                          },
+                          {
+                            'nodes': ['22', '23', '24'],
+                            'label.ca': 'Protecció i promoció social',
+                            'label.es': 'Protección y promoción social'
+                          },
+                          '15', '16', '33', '32', '34', '13', '17', '01'
+                        ]
 
 # How much padding between Sankey nodes. Default: 2 (Optional)
 OVERVIEW_NODE_PADDING = 4
