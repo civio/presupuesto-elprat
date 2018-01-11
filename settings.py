@@ -153,7 +153,13 @@ OVERVIEW_INCOME_NODES = [
                             'label.es': 'Sobre bienes inmuebles de naturaleza urbana',
                             'link_id': '11'
                           },
-                          '42', '13', 
+                          {
+                            'nodes': '42',
+                            'label.ca': 'De l\'Administració de l\'Estat',
+                            'label.es': 'De la Administración del Estado',
+                            'link_id': '42'
+                          },
+                          '13', 
                           {
                             'nodes': ['30', '31', '32', '33', '34', '36', '38', '39'],
                             'label.ca': 'Taxes, preus públics i altres ingressos',
@@ -162,8 +168,8 @@ OVERVIEW_INCOME_NODES = [
                           },
                           {
                             'nodes': [['11', '112'], ['11', '115'], ['11', '116']],
-                            'label.ca': 'Resto impostos directes',
-                            'label.es': 'Resto impuestos directos',
+                            'label.ca': 'Impostos directes',
+                            'label.es': 'Impuestos directos',
                             'link_id': '11'
                           },
                           {
