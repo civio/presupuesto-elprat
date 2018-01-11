@@ -31,7 +31,7 @@ msgstr "Se realiza a través de impuestos directos -como el impuesto de bienes i
 
 #: templates/budgets/budgets_intro.html:16
 msgid "El dinero recaudado localmente se complementa con las transferencias de la Administración General del Estado y del Gobierno de Aragón, que son los encargados de recaudar otros ingresos como el IVA y el IRPF"
-msgstr "La recaudación local se complementa con las transferencias y subvenciones de la Administración General del Estado y de la Generalidad de Cataluña (entidades encargados de recaudar ingresos como el IVA y el IRPF)"
+msgstr "La recaudación local se complementa con las transferencias y subvenciones de la Administración General del Estado y de la Generalidad de Cataluña (entidades encargadas de recaudar ingresos como el IVA y el IRPF)"
 
 #: templates/budgets/budgets_intro.html:22
 msgid "El ayuntamiento utiliza el dinero recaudado, junto con otras fuentes de financiación como la deuda, para mantener los servicios públicos y la infraestructura de la ciudad."
@@ -83,3 +83,7 @@ msgstr "Impuesto vehículos tracción mecánica"
 
 msgid "Vehículo clasificado en el Registre de Vehicles de la Direcció Gemeral Trànsit como \"Zero emissions\" o \"Eco\""
 msgstr "Vehículo clasificado en el Registre de Vehicles de la Direcció General Trànsit como \"Zero emissions\" o \"Eco\""
+
+#: templates/shared/data_sources.html:15
+msgid "La tasa de inflación anual es la media de la tasa interanual de los doce meses del año."
+msgstr "La tasa de inflación anual es la variación interanual del mes de diciembre."
