@@ -159,7 +159,12 @@ OVERVIEW_INCOME_NODES = [
                             'label.es': 'De la Administración del Estado',
                             'link_id': '42'
                           },
-                          '13', 
+                          {
+                            'nodes': '13',
+                            'label.ca': 'Impostos indirectes',
+                            'label.es': 'Impuestos indirectos',
+                            'link_id': '13'
+                          }
                           {
                             'nodes': ['30', '31', '32', '33', '34', '36', '38', '39'],
                             'label.ca': 'Taxes, preus públics i altres ingressos',
