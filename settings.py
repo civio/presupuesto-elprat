@@ -143,13 +143,13 @@ OVERVIEW_USE_NEW_VIS = True
 OVERVIEW_INCOME_NODES = [
                           {
                             'nodes': [['11', '113']],
-                            'label.ca': 'Sobre béns immobles de característiques especials',
+                            'label.ca': 'Sobre immobles especials',
                             'label.es': ' Sobre inmuebles especiales',
                             'link_id': '11'
                           },
                           {
                             'nodes': [['11', '114']],
-                            'label.ca': 'Sobre béns immobles de naturalesa urbana',
+                            'label.ca': 'Sobre immobles urbans',
                             'label.es': 'Sobre inmuebles urbanos',
                             'link_id': '11'
                           },
