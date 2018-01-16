@@ -148,3 +148,6 @@ msgstr "Política de Privacitat"
 #: templates/shared/data_sources.html:15
 msgid "La tasa de inflación anual es la media de la tasa interanual de los doce meses del año."
 msgstr "La taxa d'inflació anual és la variació interanual al mes de desembre."
+
+msgid " (cap. %(chapter)s)"
+msgstr " "
