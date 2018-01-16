@@ -168,8 +168,8 @@ OVERVIEW_INCOME_NODES = [
                           },
                           {
                             'nodes': [['11', '112'], ['11', '115'], ['11', '116']],
-                            'label.ca': 'Impostos directes',
-                            'label.es': 'Impuestos directos',
+                            'label.ca': 'Resta impostos directes',
+                            'label.es': 'Resto de impuestos directos',
                             'link_id': '11'
                           },
                           {
