@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-11 17:16+0100\n"
-"PO-Revision-Date: 2017-12-22 12:22+0100\n"
+"PO-Revision-Date: 2018-02-05 19:52+0100\n"
 "Last-Translator: David Cabo <david@civio.es>\n"
 "Language-Team: \n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.5\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: templates/base.html:4 templates/shared/social_sharing.html:5
 msgid "Presupuestos del Gobierno de Aragón"
@@ -53,7 +53,7 @@ msgstr "Els ingressos i despeses que es mostren inclouen únicament a l'Ajuntame
 
 #: templates/tax_receipt/tax_receipt_form.html:75
 msgid "Contribuyes con un total de <strong id=\"tax-amount-paid\"></strong> a los presupuestos del Gobierno de Aragón"
-msgstr "Contribueixes amb un total de <strong id=\"tax-amount-paid\"></strong> als pressupostos del Ajuntament del Prat de Llobregat"
+msgstr "Contribueixes amb un total de <strong id=\"tax-amount-paid\"></strong> als pressupostos de l'Ajuntament del Prat de Llobregat"
 
 #: templates/welcome/index.html:12
 msgid "¿Cómo y en qué gasta el Gobierno de Aragón?"
@@ -65,7 +65,7 @@ msgstr "Perquè et facis una idea general dels ingressos i les despeses de l'Aju
 
 #: templates/shared/data_controllers_select.html:3
 msgid "Reales (ajustadas a inflación)"
-msgstr "Ajustats a inflación"
+msgstr "Ajustats a inflació"
 
 #: templates/shared/data_controllers_select.html:7
 msgid "Per-capita (real)"
@@ -139,7 +139,7 @@ msgid "Sí, horario permanente hasta 4 metros"
 msgstr "Sí, horari permanent fins a 4 metres"
 
 msgid "Impuesto a vehículos motorizados"
-msgstr "Impost vehicles tracció mecánica"
+msgstr "Impost vehicles tracció mecànica"
 
 #: templates/shared/footer.html:25
 msgid "Política de Privacidad"
