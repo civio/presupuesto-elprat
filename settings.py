@@ -163,8 +163,7 @@ OVERVIEW_INCOME_NODES = [
                           {
                             'nodes': ['30', '31', '32', '33', '34', '36', '38', '39'],
                             'label.ca': 'Taxes, preus públics i altres ingressos',
-                            'label.es': 'Tasas, precios públicos y otros ingresos',
-                            'link_id': '30'
+                            'label.es': 'Tasas, precios públicos y otros ingresos'
                           },
                           {
                             'nodes': [['11', '112'], ['11', '115'], ['11', '116']],
@@ -175,14 +174,12 @@ OVERVIEW_INCOME_NODES = [
                           {
                             'nodes': [['46', '461'], ['46', '462'], ['46', '464'], ['46', '465'], ['76', '761'], ['76', '764']],
                             'label.ca': 'D\'entitats locals',
-                            'label.es': 'De Entidades Locales',
-                            'link_id': '46'
+                            'label.es': 'De Entidades Locales'
                           },
                           {
                             'nodes': ['45', '75'],
                             'label.ca': 'De comunitats autònomes',
-                            'label.es': 'De Comunidades Autónomas',
-                            'link_id': '45'
+                            'label.es': 'De Comunidades Autónomas'
                           },
                           {
                             'nodes': '29',
