@@ -90,3 +90,8 @@ msgstr "La tasa de inflación anual es la variación interanual del mes de dicie
 
 msgid " (cap. %(chapter)s)"
 msgstr " "
+
+#: templates/shared/data_sources_extra.html:1
+msgid "Los datos correspondientes a la ejecución de 2017 no son datos de liquidación."
+msgstr "Los datos correspondientes a la ejecución de 2017 no son datos de liquidación."
+

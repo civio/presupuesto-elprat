@@ -151,3 +151,7 @@ msgstr "La taxa d'inflació anual és la variació interanual al mes de desembre
 
 msgid " (cap. %(chapter)s)"
 msgstr " "
+
+#: templates/shared/data_sources_extra.html:1
+msgid "Los datos correspondientes a la ejecución de 2017 no son datos de liquidación."
+msgstr "Les dades corresponents a l'execució de 2017 no són dades de liquidació."
