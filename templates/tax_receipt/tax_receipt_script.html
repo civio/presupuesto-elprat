@@ -41,7 +41,7 @@
           bonus_value = 0.2;
         }
       }
-      return value * 0.00552 * (1-bonus_value);
+      return value * 0.00558 * (1-bonus_value);
     };
 
     // Set vehicles tax values & callback
@@ -54,7 +54,7 @@
       return value * (1-bonus);
     }
     // Set parking tax values
-    TaxReceipt.taxes.parking.values = [0, 154, 205];
+    TaxReceipt.taxes.parking.values = [0, 156, 207.5];
 
     // Remove garbage tax
     delete TaxReceipt.taxes.garbage;
