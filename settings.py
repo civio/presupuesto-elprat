@@ -218,8 +218,6 @@ OVERVIEW_NODE_PADDING = 4
 # Nodes ordered by amount by default. If set to True keeps the order defined in nodes array. Default: False (Optional)
 # OVERVIEW_FORCE_ORDER = False
 
-# Adjust inflation in amounts in Overview page. Default: True
-ADJUST_INFLATION_IN_OVERVIEW = False
 
 # Show Subtotals panel in Overview. Default: False
 # SHOW_OVERVIEW_SUBTOTALS = True
