@@ -525,6 +525,7 @@ G,9,4,1,Devolució de fiances
 #
 I,4,7,0,D’empreses privades
 I,4,8,0,De famílies i institucions sense fins de lucre
+I,4,8,1,De institucions sense ànim de lucre
 I,5,2,0,Interessos de dipòsits
 G,1,4,0,Altre personal
 G,2,7,0,Despeses imprevistes

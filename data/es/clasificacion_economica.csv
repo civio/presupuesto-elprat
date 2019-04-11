@@ -525,6 +525,7 @@ G,9,4,1,Devolución de fianzas
 #
 I,4,7,0,De empresas privadas
 I,4,8,0,De familias e instituciones sin fines de lucro
+I,4,8,1,De instituciones sin ánimo de lucro
 I,5,2,0,Intereses por depósitos en bancos y cajas
 G,1,4,0,Otro personal
 G,2,7,0,Gastos imprevistos y funciones no clasificadas
