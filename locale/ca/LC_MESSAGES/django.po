@@ -93,14 +93,20 @@ msgstr "Cap"
 msgid "Vivienda protección pública (3 primeros años)"
 msgstr "Habitatge de protecció pública (3 primers anys)"
 
-msgid "Familia Numerosa General"
-msgstr "Família Nombrosa General"
+msgid "Familia numerosa general"
+msgstr "Família nombrosa general"
 
-msgid "Familia Numerosa Especial"
-msgstr "Família Nombrosa Especial"
+msgid "Familia numerosa especial"
+msgstr "Família nombrosa especial"
 
-msgid "Ciclomotores hasta 49 cc o Motocicletas hasta 125 cc"
-msgstr "Ciclomotors fins 49 cc o Motocicletes fins 125 cc"
+msgid "Vivienda con sistemas de aprovechamiento de la energía solar (máximo 3 años)"
+msgstr "Habitatge amb aprofitamente de l'energia solar (màxim 3 anys)"
+
+msgid "Vivienda integrada en programa municipal de alquiler o cesión social"
+msgstr "Habitatge integrat en programa municipal de lloguer o cessió social"
+
+msgid "Ciclomotores hasta 49 cc o motocicletas hasta 125 cc"
+msgstr "Ciclomotors fins 49 cc o motocicletes fins 125 cc"
 
 msgid "Coche muy pequeño (menos de 8 caballos fiscales)"
 msgstr "Cotxe molt petit (menys de 8 cavalls fiscals)"
@@ -117,8 +123,8 @@ msgstr "Cotxe gran (entre 16 i 20 cavalls fiscals)"
 msgid "Coche muy grande (más de 20 caballos fiscales)"
 msgstr "Cotxe molt gran (més 20 cavalls fiscals)"
 
-msgid "Titular del vehículo a nombre de discapacitados para su uso exclusivo (grado igual o superior al 33% o incapacidad permanente en grado total, absoluta o gran invalidez"
-msgstr "Titular de vehicle a nom de discapacitats per al seu ús exclusiu (grau igual o superior a 33% o incapacitat permanent en grau total, absoluta o gran invalidesa"
+msgid "Vehículo a nombre de discapacitados para su uso exclusivo (grado igual o superior al 33%)"
+msgstr "Vehicle a nom de discapacitats per al seu ús exclusiu (grau igual o superior a 33%)"
 
 msgid "Vehículo histórico (art. 1 RD 1247/1995)"
 msgstr "Vehicle històric (art. 1 RD 1247/1995)"
@@ -129,8 +135,8 @@ msgstr "Vehicle amb antiguitat entre 25 i 50 anys"
 msgid "Vehículo con antiguedad superior a 50 años"
 msgstr "Vehicle amb antiguitat superior a 50 anys"
 
-msgid "Vehículo clasificado en el Registre de Vehicles de la Direcció Gemeral Trànsit como \"Zero emissions\" o \"Eco\""
-msgstr "Vehicle classificat en el Registre de Vehicles de la Direcció General Trànsit com de \"Zero emissions\" o \"Eco\""
+msgid "Vehículo clasificado por la DGT como \"Cero emisiones\" o \"Eco\""
+msgstr "Vehicle classificat per la DGT com de \"Zero emissions\" o \"Eco\""
 
 msgid "Sí, horario permanente hasta 3 metros"
 msgstr "Sí, horari permanent fins a 3 metres"

@@ -8,46 +8,98 @@
 
 
     // Set house tax values & callback
+    var parseValue = function(elemSelector) {
+      var value = parseFloat($(elemSelector).val().replace(/\./g, '').replace(/,/, '.')).toFixed(0);
+      if (isNaN(value)) {
+        $(elemSelector).val('')
+        value = 0;
+      }
+      return value;
+    }
+
+    var calculateHouseBonusRate = function(selector, value, bonus) {
+      switch(selector) {
+        case TaxReceipt.taxes.house.selector:
+          return bonusRateForHouse(value, bonus);
+          break;
+        case TaxReceipt.taxes.houseExtra.selector:
+          return bonusRateForHouseExtra(value, bonus);
+      }
+
+      return 0;
+    }
+
+    var bonusRateForHouse = function (value, bonus) {
+      switch(bonus) {
+        case '1':
+          return 0.5;
+          break;
+        case '2':
+          if (value <= 77598) {
+            return 0.5;
+          } else if (value <= 121000) {
+            return 0.4;
+          } else if (value <= 242000) {
+            return 0.3;
+          } else if (value <= 363000) {
+            return 0.2;
+          } else {
+            return 0.1;
+          }
+          break;
+        case '3':
+          if (value <= 77598) {
+            return 0.9;
+          } else if (value <= 121000) {
+            return 0.8;
+          } else if (value <= 242000) {
+            return 0.6;
+          } else if (value <= 363000) {
+            return 0.4;
+          } else {
+            return 0.2;
+          }
+          break;
+        case '4':
+          return 0.5;
+          break;
+        default:
+          return 0;
+      }
+    }
+
+    var bonusRateForHouseExtra = function(_value, bonus) {
+      switch(bonus) {
+        case '1':
+          return 0.5;
+          break;
+        case '2':
+          return 0.95;
+          break;
+        case '3':
+          return 0.5;
+          break;
+        default:
+          return 0;
+      }
+    }
+
     TaxReceipt.taxes.houseExtra          = { selector: 'extra-house' };
     TaxReceipt.taxes.houseExtra.callback =
     TaxReceipt.taxes.house.callback      = function(selector, values) {
-      var value = +$('#select-'+selector).val();
+      var value = parseValue('#select-'+selector);
       var bonus = $('#select-'+selector+'-bonus').val()
-      var bonus_value = 0;
-      if (bonus == '1') {
-        bonus_value = 0.5;
-      } else if (bonus == '2') {
-        if (value <= 77598) {
-          bonus_value = 0.5;
-        } else if (value <= 121000) {
-          bonus_value = 0.4;
-        } else if (value <= 242000) {
-          bonus_value = 0.3;
-        } else if (value <= 363000) {
-          bonus_value = 0.2;
-        } else {
-          bonus_value = 0.1;
-        }
-      } else if (bonus == '3') {
-        if (value <= 77598) {
-          bonus_value = 0.9;
-        } else if (value <= 121000) {
-          bonus_value = 0.8;
-        } else if (value <= 242000) {
-          bonus_value = 0.6;
-        } else if (value <= 363000) {
-          bonus_value = 0.4;
-        } else {
-          bonus_value = 0.2;
-        }
-      }
-      var tax = value * 0.00564 * (1-bonus_value);
+
+      var bonus_rate = calculateHouseBonusRate(selector, value, bonus)
+
+      var tax = value * 0.00564 * (1-bonus_rate);
       return tax >= 5 ? tax : 0;
-    };
+    }
 
     // Set vehicles tax values & callback
     TaxReceipt.taxes.vehicle.values        = [0, 8.5, 25, 68, 143.5, 179, 224];
     TaxReceipt.taxes.vehicleExtra.values   = [0, 8.5, 25, 68, 143.5, 179, 224];
+
     TaxReceipt.taxes.vehicle.callback      =
     TaxReceipt.taxes.vehicleExtra.callback = function(selector, values) {
       var value = values[$('#select-'+selector).val()];
@@ -79,6 +131,21 @@
 
     // Initialize tax receipt
     TaxReceipt.setup( breakdown, getBreakdownValue );
+
+    // Currency mask for house value inputs
+    var houseElemSelectors = ['#select-house', '#select-extra-house']
+    for (var i = 0; i < houseElemSelectors.length; i++) {
+      (function(elemSelector) {
+        $(elemSelector).change(function() {
+          $(elemSelector).val(parseValue(elemSelector).replace(/(\d)(?=(?:\d{3})+\b)/g, '$1.'));
+        });
+        $(elemSelector).on('keypress', function(event) {
+          var keycode = event.which;
+          if (keycode == 13)
+            $(elemSelector+'-bonus').trigger('focus');
+        });
+      })(houseElemSelectors[i]);
+    }
 
   });
 </script>
