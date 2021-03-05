@@ -24,7 +24,8 @@
       var bonusRate = bonusRateCalculator(selector)(value, bonus);
       var bonusValue = taxValue * bonusRate;
 
-      if (selector === TaxReceipt.taxes.house.selector && bonus === '4') {
+      if ( (selector === TaxReceipt.taxes.house.selector && bonus === '4') ||
+           (selector === TaxReceipt.taxes.houseExtra.selector && bonus === '3') ) {
         bonusValue = Math.min(bonusValue, 300)
       }
 
