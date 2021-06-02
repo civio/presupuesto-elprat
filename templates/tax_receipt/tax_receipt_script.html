@@ -17,16 +17,29 @@
       return value;
     }
 
-    var calculateHouseBonusRate = function(selector, value, bonus) {
-      switch(selector) {
-        case TaxReceipt.taxes.house.selector:
-          return bonusRateForHouse(value, bonus);
-          break;
-        case TaxReceipt.taxes.houseExtra.selector:
-          return bonusRateForHouseExtra(value, bonus);
+    var calculateHouseTax = function(selector, value, bonus) {
+      var taxRate = 0.00564
+      var taxValue = value * taxRate
+
+      var bonusRate = bonusRateCalculator(selector)(value, bonus);
+      var bonusValue = taxValue * bonusRate;
+
+      if ( (selector === TaxReceipt.taxes.house.selector && bonus === '4') ||
+           (selector === TaxReceipt.taxes.houseExtra.selector && bonus === '3') ) {
+        bonusValue = Math.min(bonusValue, 300)
       }
 
-      return 0;
+      return taxValue - bonusValue;
+    }
+
+    var bonusRateCalculator = function (selector) {
+      switch(selector) {
+        case TaxReceipt.taxes.house.selector:
+          return bonusRateForHouse;
+          break;
+        case TaxReceipt.taxes.houseExtra.selector:
+          return bonusRateForHouseExtra;
+      }
     }
 
     var bonusRateForHouse = function (value, bonus) {
@@ -90,9 +103,8 @@
       var value = parseValue('#select-'+selector);
       var bonus = $('#select-'+selector+'-bonus').val()
 
-      var bonus_rate = calculateHouseBonusRate(selector, value, bonus)
+      var tax = calculateHouseTax(selector, value, bonus)
 
-      var tax = value * 0.00564 * (1-bonus_rate);
       return tax >= 5 ? tax : 0;
     }
 
