@@ -405,7 +405,6 @@ G,4,7,1,Subvencions per a bonificació d'interessos i primes d'assegurances
 G,4,7,2,Subvencions per reduir el preu a pagar pels consumidors
 G,4,7,9,Altres subvencions a empreses privades
 G,4,8,,A famílies i institucions sense fins de lucre
-G,4,8,7,Institucions sense fins de lucre
 G,4,9,,A l'exterior
 G,5,,,Fons de contingència
 G,5,0,,Fons de contingència
@@ -528,10 +527,12 @@ I,4,7,0,D’empreses privades
 I,4,8,0,De famílies i institucions sense fins de lucre
 I,4,8,1,De institucions sense ànim de lucre
 I,5,2,0,Interessos de dipòsits
+I,7,7,1,Juntes de compensació
 G,1,4,0,Altre personal
 G,2,7,0,Despeses imprevistes
 G,4,1,0,A organismes autònoms de l'entitat local
 G,4,8,1,Formació y beques
+G,4,8,7,Institucions sense fins de lucre
 G,4,8,9,Altres transferències
 G,4,9,0,A l'exterior
 G,7,4,0,A ens públics i societats mercantils de l'entitat local

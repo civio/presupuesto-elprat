@@ -405,7 +405,6 @@ G,4,7,1,Subvenciones para bonificación de intereses y primas de seguros
 G,4,7,2,Subvenciones para reducir el precio a pagar por los consumidores
 G,4,7,9,Otras subvenciones a empresas privadas
 G,4,8,,A familias e instituciones sin fines de lucro
-G,4,8,7,Instituciones sin fines de lucro
 G,4,9,,Al exterior
 G,5,,,Fondo de contingencia
 G,5,0,,Fondo de contingencia
@@ -528,10 +527,12 @@ I,4,7,0,De empresas privadas
 I,4,8,0,De familias e instituciones sin fines de lucro
 I,4,8,1,De instituciones sin ánimo de lucro
 I,5,2,0,Intereses por depósitos en bancos y cajas
+I,7,7,1,Juntas de compensación
 G,1,4,0,Otro personal
 G,2,7,0,Gastos imprevistos y funciones no clasificadas
 G,4,1,0,A organismos autónomos de la entidad local
 G,4,8,1,Formación y becas
+G,4,8,7,Instituciones sin fines de lucro
 G,4,8,9,Otras transferencias
 G,4,9,0,Al exterior
 G,7,4,0,A entes públicos y sociedades mercantiles de la entidad local
