@@ -78,7 +78,8 @@ var chapters_1_5_incomes_adjustment = {
   2017: 513060116,
   2018: 647765531,
   2019: 216036804,
-  2020: 68683657-28358524 // expenses have been also reduced with the incorporation of remnants
+  2020: 68683657-28358524, // expenses have been also reduced with the incorporation of remnants
+  2021: 158215126
 }
 var chapters_1_7_incomes_adjustment = {
   2012: 157363241,
@@ -89,7 +90,12 @@ var chapters_1_7_incomes_adjustment = {
   2017: 165454321,
   2018: 330238351,
   2019: 442997911,
-  2020: 29535129
+  2020: 29535129,
+  2021: 220854207-441708461 // expenses have been also reduced with the incorporation of remnants
+}
+
+var chapter_9_incomes_adjustment = {
+  2021: 1791969 // expenses have been also reduced with the incorporation of remnants
 }
 
 // Calculate global budget indicators
@@ -101,7 +107,7 @@ function calculateIndicators(chapterBreakdown, budgetStatuses, adjustInflationFn
   var gross_savings = getSum(chapterBreakdown, _.range(1, 6), 'income', uiState.year, budgetStatuses) -
                       (chapters_1_5_incomes_adjustment[uiState.year] || 0) -
                       getSum(chapterBreakdown, _.range(1, 6), 'expense', uiState.year, budgetStatuses);
-  var net_savings = gross_savings - getSum(chapterBreakdown, '9', 'expense', uiState.year, budgetStatuses);
+  var net_savings = gross_savings + (chapter_9_incomes_adjustment[uiState.year] || 0) - getSum(chapterBreakdown, '9', 'expense', uiState.year, budgetStatuses);
   var funding_capacity = getSum(chapterBreakdown, _.range(1, 8), 'income', uiState.year, budgetStatuses) -
                          (chapters_1_7_incomes_adjustment[uiState.year] || 0) -
                          getSum(chapterBreakdown, _.range(1, 8), 'expense', uiState.year, budgetStatuses);
