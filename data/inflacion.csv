@@ -1,6 +1,6 @@
-# Datos de IPC del INE. Base 2016. Variación interanual de diciembre del índice
+# Datos de IPC del INE. Base 2021. Variación interanual de diciembre del índice
 # general en Catalunya:
-#   http://www.ine.es/jaxiT3/Tabla.htm?t=22350&L=0
+#   https://www.ine.es/jaxiT3/Tabla.htm?t=50913&L=0
 #
 # Las tasas de inflación se refieren a la variación interanual de diciembre.
 # Este valor es calculado por el INE y publicado en la dirección indicada.
@@ -24,4 +24,5 @@
 2019,0.9
 2020,-0.6
 2021,6.1
-2022,0
+2022,5.2
+2023,0
