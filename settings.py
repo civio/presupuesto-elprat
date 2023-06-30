@@ -21,13 +21,13 @@ BUDGET_LOADER = 'ElPratBudgetLoader'
 # Show Payments section in menu & home options. Default: False.
 # SHOW_PAYMENTS = True
 
-# Configure 'by area' payment breakdown. Default: ['area', 'payee', 'description']
-# PAYMENTS_BREAKDOWN_BY_AREA = ['area', 'payee', 'description']
+# Configure 'by area' payment breakdown. Default: ['area', 'payee', 'description']
+# PAYMENTS_BREAKDOWN_BY_AREA = ['area', 'payee', 'description']
 
-# Configure 'by payee' payment breakdown. Default: ['payee', 'area', 'description']
-# PAYMENTS_BREAKDOWN_BY_PAYEE = ['payee', 'area', 'description']
+# Configure 'by payee' payment breakdown. Default: ['payee', 'area', 'description']
+# PAYMENTS_BREAKDOWN_BY_PAYEE = ['payee', 'area', 'description']
 
-# Define if payments year slider is a range (True) or a single year (False). Default: True
+# Define if payments year slider is a range (True) or a single year (False). Default: True
 # PAYMENTS_YEAR_RANGE = False
 
 # Show Tax Receipt section in menu & home options. Default: False.
@@ -61,7 +61,7 @@ SHOW_INSTITUTIONAL_TAB  = False
 # SHOW_FUNDING_TAB = True
 
 # Show breadcrumbs in policies. Default: False.
-# SHOW_BREADCRUMBS = True
+# SHOW_BREADCRUMBS = True
 
 # Show an extra column with actual revenues/expenses. Default: True.
 # Warning: the execution data still gets shown in the summary chart and in downloads.
@@ -87,9 +87,8 @@ LANGUAGES = (
   ('es', 'Castellano')
 )
 
-# Google Analytics ID. Default: ''
-# In order to get the ID create a Google Analytics Acount in https://analytics.google.com/analytics/web/
-ANALYTICS_ID            = 'UA-28946840-38'
+# Plausible data domain. Default: ''
+PLAUSIBLE_DOMAIN        = 'onvanelsmeusimpostos.elprat.cat'
 
 # Setup Data Source Budget link
 DATA_SOURCE_BUDGET      = 'https://seu.elprat.cat/siac/Tablon.aspx?t=TR&id_grupo=155#p97'
@@ -203,13 +202,13 @@ OVERVIEW_EXPENSE_NODES = [
 OVERVIEW_NODE_PADDING = 4
 
 # Overview node minimum height to show labels. Default: 16 (Optional)
-# OVERVIEW_LABELS_MIN_SIZE = 16
+# OVERVIEW_LABELS_MIN_SIZE = 16
 
 # Overview node labels minimum font size. Default: 11 (Optional)
 # OVERVIEW_LABELS_FONT_SIZE_MIN = 11
 
 # Overview node labels maximum font size. Default: 11 (Optional)
-# OVERVIEW_LABELS_FONT_SIZE_MAX = 38
+# OVERVIEW_LABELS_FONT_SIZE_MAX = 38
 
 # Nodes ordered by amount by default. If set to True keeps the order defined in nodes array. Default: False (Optional)
 # OVERVIEW_FORCE_ORDER = False
@@ -226,7 +225,7 @@ OVERVIEW_NODE_PADDING = 4
 # ----------------------
 
 # Treemaps minimum height or width to show labels. Default: 30 (Optional)
-# TREEMAP_LABELS_MIN_SIZE = 30
+# TREEMAP_LABELS_MIN_SIZE = 30
 
 # Treemap minimum font size. Default: 11 (Optional)
 # TREEMAP_LABELS_FONT_SIZE_MIN = 11
@@ -235,7 +234,7 @@ OVERVIEW_NODE_PADDING = 4
 # TREEMAP_GLOBAL_MAX_VALUE = False
 
 # Allow overriding of default treemap color scheme
-# COLOR_SCALE = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#e7969c', '#bcbd22', '#17becf']
+# COLOR_SCALE = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#e7969c', '#bcbd22', '#17becf']
 
 # How many levels to show in the global institutional treemap? Default: 1.
-# INSTITUTIONAL_MAX_LEVELS = 2
+# INSTITUTIONAL_MAX_LEVELS = 2
