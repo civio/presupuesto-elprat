@@ -1,7 +1,4 @@
 # -*- coding: UTF-8 -*-
-from django.conf.urls import patterns, url
-#from django.conf.urls.i18n import i18n_patterns
-
 
 MAIN_ENTITY_LEVEL = 'municipio'
 
@@ -110,12 +107,6 @@ MAIN_ENTITY_PRIVACY_URL = 'http://www.elprat.cat/avis-legal-i-politica-de-privac
 
 # External URL for Cookies Policy (if empty we use out template page/cookies.html)
 COOKIES_URL             = 'http://www.elprat.cat/avis-legal-i-politica-de-privacitat'
-
-# We can define additional URLs applicable only to the theme. These will get added
-# to the project URL patterns list.
-# EXTRA_URLS = (
-#     url(r'^visita-guiada$', 'guidedvisit'),
-# )
 
 
 # Welcome Settings
