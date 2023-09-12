@@ -91,22 +91,22 @@ PLAUSIBLE_DOMAIN        = 'onvanelsmeusimpostos.elprat.cat'
 DATA_SOURCE_BUDGET      = 'https://seu.elprat.cat/siac/Tablon.aspx?t=TR&id_grupo=155#p97'
 
 # Setup Data Source Population link
-DATA_SOURCE_POPULATION  = 'http://www.ine.es/jaxiT3/Tabla.htm?t=2861&L=0'
+DATA_SOURCE_POPULATION  = 'https://www.ine.es/jaxiT3/Tabla.htm?t=2861&L=0'
 
 # Setup Data Source Inflation link
-DATA_SOURCE_INFLATION   = 'http://www.ine.es/jaxiT3/Tabla.htm?t=22350&L=0'
+DATA_SOURCE_INFLATION   = 'https://www.ine.es/jaxiT3/Tabla.htm?t=22350&L=0'
 
 # Setup Main Entity Web Url
-MAIN_ENTITY_WEB_URL     = 'http://www.elprat.cat/'
+MAIN_ENTITY_WEB_URL     = 'https://www.elprat.cat/'
 
 # Setup Main Entity Legal Url (if empty we hide the link)
-MAIN_ENTITY_LEGAL_URL   = 'http://www.elprat.cat/avis-legal-i-politica-de-privacitat'
+MAIN_ENTITY_LEGAL_URL   = 'https://www.elprat.cat/avis-legal-i-politica-de-privacitat'
 
 # Setup Main Entity Legal Url (if empty we hide the link)
-MAIN_ENTITY_PRIVACY_URL = 'http://www.elprat.cat/avis-legal-i-politica-de-privacitat'
+MAIN_ENTITY_PRIVACY_URL = 'https://www.elprat.cat/avis-legal-i-politica-de-privacitat'
 
 # External URL for Cookies Policy (if empty we use out template page/cookies.html)
-COOKIES_URL             = 'http://www.elprat.cat/avis-legal-i-politica-de-privacitat'
+COOKIES_URL             = 'https://www.elprat.cat/avis-legal-i-politica-de-privacitat'
 
 
 # Welcome Settings
