@@ -58,6 +58,7 @@
 1,6,0,0,Alcantarillado
 1,6,1,0,Abastecimiento domiciliario de agua potable
 1,6,2,1,Recogida de residuos
+1,6,2,2,Gestión de residuos sólidos urbanos
 1,6,3,0,Limpieza viaria
 1,6,5,0,Alumbrado público
 1,6,9,0,Otros servicios de bienestar comunitario
